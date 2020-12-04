@@ -29,6 +29,7 @@ func main() {
 }
 
 func find_two_sum(input []int, sum int) (int, int, error) {
+	// there is no set in golang
 	m := map[int]bool{}
 	for _, num := range input {
 		diff := sum - num
