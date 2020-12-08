@@ -64,7 +64,7 @@ func CheckPolicy_Question2(n1 int, n2 int, char string, password string) bool {
 	y := char2 == char
 
 	// xor if only one of them is true
-	return x != y {
+	return x != y
 }
 
 func ReadInput(path string) ([]string, error) {
